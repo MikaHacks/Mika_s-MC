@@ -1015,7 +1015,7 @@ function MineKhan() {
 
 	//globals
 	//{
-	let version = "Alpha 0.7.1"
+	let version = "Beta notreleased"
 	let reach = 5 // Max distance player can place or break blocks
 	let sky = [0.33, 0.54, 0.72] // 0 to 1 RGB color scale
 	let superflat = false
@@ -5385,8 +5385,8 @@ function MineKhan() {
 	// Define all the scene draw functions
 	(function() {
 		function title() {
-			let title = "MEIN KAMF"
-			let subtext = "potato edition"
+			let title = "MIKA-MC"
+			let subtext = "Potato Edition"
 			let font = "VT323,monospace"
 			strokeWeight(1)
 			ctx.textAlign = 'center'
@@ -5569,7 +5569,7 @@ function MineKhan() {
 	return gameLoop
 }
 
-init = Mika_s-MC()
+init = MineKhan()
 if (window.parent.raf) {
 	window.cancelAnimationFrame(window.parent.raf)
 	console.log("Canceled", window.parent.raf)
